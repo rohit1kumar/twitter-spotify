@@ -61,5 +61,5 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log('server running')
 })
-
+module.exports = app;
 
